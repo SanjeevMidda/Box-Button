@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    font-weight: 300;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+}
+
+.squares{
+    display: flex;
+}
+
+.squares *{
+    margin: 10px;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+}
+
+button{
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-bottom: 150px;
+    color: grey;
+}
+
+.rotateLeft{
+transition: transform 2s;
+}
+
+.rotateRight{
+    transition: transform 2s;
+}
